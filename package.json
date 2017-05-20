@@ -1,0 +1,27 @@
+{
+  "name": "math-evaluator",
+  "version": "0.0.1",
+  "main": "dist/math-evaluator.js",
+  "repository": "https://github.com/semantic-math/math-evaluator",
+  "author": "Kevin Barabash <kevinb@khanacademy.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^20.0.3",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^20.0.3",
+    "math-parser": "^0.8.0",
+    "webpack": "^2.5.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "prepublish": "webpack"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "babel-loader": "^7.0.0"
+  }
+}
