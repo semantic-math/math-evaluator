@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: "./lib/evaluate.js",
+    entry: "./index.js",
     output: {
         path: path.join(__dirname, "dist"),
         filename: "math-evaluator.js",
